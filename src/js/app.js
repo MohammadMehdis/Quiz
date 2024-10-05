@@ -1,16 +1,12 @@
+"use strict";
+
 const acontainer = document.querySelector(".acontainer");
 const formBox = document.querySelector("#formBox");
 const nextButton = document.getElementById("NexP");
 
 formBox.addEventListener("submit", (e) => {
   e.preventDefault();
-
-  const nameInput = e.target.querySelector("input[name='type']");
-  if (!nameInput.value) {
-    alert("Please Enter Your Name");
-    return;
-  }
-
+  
   setTimeout(() => {
     acontainer.style.opacity = 0;
     setTimeout(() => {
