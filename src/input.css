@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.selected {
+    background-color: #ABD1C6; /* سبز */
+    color: #004643; /* متن سفید */
+}

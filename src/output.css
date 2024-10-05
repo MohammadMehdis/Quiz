@@ -688,11 +688,6 @@ video {
   background-color: rgb(0 70 67 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#ABD1C6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(171 209 198 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#EFF0F3\] {
   --tw-bg-opacity: 1;
   background-color: rgb(239 240 243 / var(--tw-bg-opacity));
@@ -816,6 +811,13 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.selected {
+  background-color: #ABD1C6;
+  /* سبز */
+  color: #004643;
+  /* متن سفید */
 }
 
 .hover\:bg-\[\#004643bd\]:hover {
